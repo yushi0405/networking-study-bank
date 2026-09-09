@@ -1,0 +1,104 @@
+syllabus:
+  categories:
+    - dns
+
+questions:
+  - id: dns-001
+    question: "Which DNS resource record type maps a name to an IPv4 address?"
+    answer: "A"
+    category: dns
+    tags:
+      - dns
+      - records
+      - ipv4
+    source: "RFC 1035 — Domain Names — Implementation and Specification: https://www.rfc-editor.org/rfc/rfc1035.html"
+
+  - id: dns-002
+    question: "Which DNS resource record type maps a name to an IPv6 address?"
+    answer: "AAAA"
+    category: dns
+    tags:
+      - dns
+      - records
+      - ipv6
+    source: "RFC 3596 — DNS Extensions to Support IP Version 6: https://www.rfc-editor.org/rfc/rfc3596.html"
+
+  - id: dns-003
+    question: "Which DNS resource record type identifies a mail exchanger for a domain?"
+    answer: "MX"
+    category: dns
+    tags:
+      - dns
+      - records
+      - mail
+    source: "RFC 1035 — Domain Names — Implementation and Specification: https://www.rfc-editor.org/rfc/rfc1035.html"
+
+  - id: dns-004
+    question: "Which DNS resource record type identifies an authoritative name server?"
+    answer: "NS"
+    category: dns
+    tags:
+      - dns
+      - records
+      - nameserver
+    source: "RFC 1035 — Domain Names — Implementation and Specification: https://www.rfc-editor.org/rfc/rfc1035.html"
+
+  - id: dns-005
+    question: "Which DNS resource record type provides a canonical name for an alias?"
+    answer: "CNAME"
+    category: dns
+    tags:
+      - dns
+      - records
+      - alias
+    source: "RFC 1035 — Domain Names — Implementation and Specification: https://www.rfc-editor.org/rfc/rfc1035.html"
+
+  - id: dns-006
+    question: "Which DNS resource record type stores a domain-name pointer used by reverse lookups?"
+    answer: "PTR"
+    category: dns
+    tags:
+      - dns
+      - records
+      - reverse-dns
+    source: "RFC 1035 — Domain Names — Implementation and Specification: https://www.rfc-editor.org/rfc/rfc1035.html"
+
+  - id: dns-007
+    question: "Which DNS resource record marks the start of authority data for a zone?"
+    answer: "SOA"
+    category: dns
+    tags:
+      - dns
+      - records
+      - zone
+    source: "RFC 1035 — Domain Names — Implementation and Specification: https://www.rfc-editor.org/rfc/rfc1035.html"
+
+  - id: dns-008
+    question: "Which DNS resource record type carries descriptive text strings?"
+    answer: "TXT"
+    category: dns
+    tags:
+      - dns
+      - records
+      - text
+    source: "RFC 1035 — Domain Names — Implementation and Specification: https://www.rfc-editor.org/rfc/rfc1035.html"
+
+  - id: dns-009
+    question: "Which port number is assigned to the DNS service for both UDP and TCP?"
+    answer: "53"
+    category: dns
+    tags:
+      - dns
+      - ports
+      - transport
+    source: "RFC 1035 — Domain Names — Implementation and Specification: https://www.rfc-editor.org/rfc/rfc1035.html"
+
+  - id: dns-010
+    question: "Should general-purpose DNS implementations support TCP as well as UDP?"
+    answer: "Yes"
+    category: dns
+    tags:
+      - dns
+      - tcp
+      - udp
+    source: "RFC 7766 — DNS Transport over TCP — Implementation Requirements: https://www.rfc-editor.org/rfc/rfc7766.html"

@@ -1,0 +1,94 @@
+syllabus:
+  categories:
+    - transport
+
+questions:
+  - id: tcp-001
+    question: "What type of service does TCP provide to applications?"
+    answer: "A reliable, in-order byte-stream service"
+    category: transport
+    tags:
+      - tcp
+      - reliability
+    source: "RFC 9293 — Transmission Control Protocol (TCP): https://www.rfc-editor.org/rfc/rfc9293.html"
+
+  - id: tcp-002
+    question: "What does TCP use to identify the position of data in its byte stream?"
+    answer: "Sequence numbers"
+    category: transport
+    tags:
+      - tcp
+      - sequence-numbers
+    source: "RFC 9293 — Transmission Control Protocol (TCP): https://www.rfc-editor.org/rfc/rfc9293.html"
+
+  - id: tcp-003
+    question: "Which TCP control flag is used to synchronize sequence numbers when opening a connection?"
+    answer: "SYN"
+    category: transport
+    tags:
+      - tcp
+      - handshake
+    source: "RFC 9293 — Transmission Control Protocol (TCP): https://www.rfc-editor.org/rfc/rfc9293.html"
+
+  - id: tcp-004
+    question: "Which TCP control flag indicates that the acknowledgment field is significant?"
+    answer: "ACK"
+    category: transport
+    tags:
+      - tcp
+      - acknowledgment
+    source: "RFC 9293 — Transmission Control Protocol (TCP): https://www.rfc-editor.org/rfc/rfc9293.html"
+
+  - id: tcp-005
+    question: "Which TCP control flag indicates that a sender has no more data to send?"
+    answer: "FIN"
+    category: transport
+    tags:
+      - tcp
+      - connection-close
+    source: "RFC 9293 — Transmission Control Protocol (TCP): https://www.rfc-editor.org/rfc/rfc9293.html"
+
+  - id: tcp-006
+    question: "Which TCP control flag is used to reset a connection?"
+    answer: "RST"
+    category: transport
+    tags:
+      - tcp
+      - reset
+    source: "RFC 9293 — Transmission Control Protocol (TCP): https://www.rfc-editor.org/rfc/rfc9293.html"
+
+  - id: tcp-007
+    question: "What is the usual three-message sequence used to establish a TCP connection?"
+    answer: "SYN, SYN-ACK, ACK"
+    category: transport
+    tags:
+      - tcp
+      - handshake
+    source: "RFC 9293 — Transmission Control Protocol (TCP): https://www.rfc-editor.org/rfc/rfc9293.html"
+
+  - id: tcp-008
+    question: "Which TCP header field is used by a receiver to advertise how much data it can currently accept?"
+    answer: "Window"
+    category: transport
+    tags:
+      - tcp
+      - flow-control
+    source: "RFC 9293 — Transmission Control Protocol (TCP): https://www.rfc-editor.org/rfc/rfc9293.html"
+
+  - id: udp-001
+    question: "Does UDP guarantee delivery or duplicate protection?"
+    answer: "No"
+    category: transport
+    tags:
+      - udp
+      - reliability
+    source: "RFC 768 — User Datagram Protocol: https://www.rfc-editor.org/rfc/rfc768.html"
+
+  - id: udp-002
+    question: "How long is the UDP header?"
+    answer: "8 octets"
+    category: transport
+    tags:
+      - udp
+      - header
+    source: "RFC 768 — User Datagram Protocol: https://www.rfc-editor.org/rfc/rfc768.html"

@@ -1,0 +1,94 @@
+syllabus:
+  categories:
+    - http
+
+questions:
+  - id: http-001
+    question: "Is HTTP defined as a stateless application-level protocol?"
+    answer: "Yes"
+    category: http
+    tags:
+      - http
+      - semantics
+    source: "RFC 9110 — HTTP Semantics: https://www.rfc-editor.org/rfc/rfc9110.html"
+
+  - id: http-002
+    question: "Which HTTP method requests transfer of a current representation of the target resource?"
+    answer: "GET"
+    category: http
+    tags:
+      - http
+      - methods
+    source: "RFC 9110 — HTTP Semantics: https://www.rfc-editor.org/rfc/rfc9110.html"
+
+  - id: http-003
+    question: "Which HTTP method is identical to GET except that the server does not send content in the response?"
+    answer: "HEAD"
+    category: http
+    tags:
+      - http
+      - methods
+    source: "RFC 9110 — HTTP Semantics: https://www.rfc-editor.org/rfc/rfc9110.html"
+
+  - id: http-004
+    question: "Which HTTP method asks the target resource to process the representation enclosed in the request?"
+    answer: "POST"
+    category: http
+    tags:
+      - http
+      - methods
+    source: "RFC 9110 — HTTP Semantics: https://www.rfc-editor.org/rfc/rfc9110.html"
+
+  - id: http-005
+    question: "Which HTTP method creates or replaces the state of the target resource with the request representation?"
+    answer: "PUT"
+    category: http
+    tags:
+      - http
+      - methods
+    source: "RFC 9110 — HTTP Semantics: https://www.rfc-editor.org/rfc/rfc9110.html"
+
+  - id: http-006
+    question: "Which HTTP method asks the origin server to remove the association between the target resource and its current functionality?"
+    answer: "DELETE"
+    category: http
+    tags:
+      - http
+      - methods
+    source: "RFC 9110 — HTTP Semantics: https://www.rfc-editor.org/rfc/rfc9110.html"
+
+  - id: http-007
+    question: "What does HTTP status code 200 mean?"
+    answer: "OK"
+    category: http
+    tags:
+      - http
+      - status-codes
+    source: "RFC 9110 — HTTP Semantics: https://www.rfc-editor.org/rfc/rfc9110.html"
+
+  - id: http-008
+    question: "What does HTTP status code 201 mean?"
+    answer: "Created"
+    category: http
+    tags:
+      - http
+      - status-codes
+    source: "RFC 9110 — HTTP Semantics: https://www.rfc-editor.org/rfc/rfc9110.html"
+
+  - id: http-009
+    question: "What does HTTP status code 204 mean?"
+    answer: "No Content"
+    category: http
+    tags:
+      - http
+      - status-codes
+    source: "RFC 9110 — HTTP Semantics: https://www.rfc-editor.org/rfc/rfc9110.html"
+
+  - id: http-010
+    question: "What does HTTP status code 404 mean?"
+    answer: "Not Found"
+    category: http
+    tags:
+      - http
+      - status-codes
+    source: "RFC 9110 — HTTP Semantics: https://www.rfc-editor.org/rfc/rfc9110.html"

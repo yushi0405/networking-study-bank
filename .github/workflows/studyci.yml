@@ -1,0 +1,18 @@
+name: StudyCI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  studyci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yushi0405/studyci@v0.2.0
+        with:
+          path: questions

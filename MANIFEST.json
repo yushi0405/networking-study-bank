@@ -1,0 +1,17 @@
+{
+  "questionCount": 50,
+  "fileCount": 5,
+  "categories": {
+    "internet-layer": 10,
+    "transport": 10,
+    "dns": 10,
+    "http": 10,
+    "security-app": 10
+  },
+  "validation": {
+    "uniqueIds": true,
+    "uniqueExactQuestions": true,
+    "requiredFieldsPresent": true,
+    "sourcesPresent": true
+  }
+}

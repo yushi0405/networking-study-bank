@@ -1,0 +1,94 @@
+syllabus:
+  categories:
+    - internet-layer
+
+questions:
+  - id: ip-001
+    question: "How many bits are in an IPv4 address?"
+    answer: "32 bits"
+    category: internet-layer
+    tags:
+      - ipv4
+      - addressing
+    source: "RFC 791 — Internet Protocol: https://www.rfc-editor.org/rfc/rfc791.html"
+
+  - id: ip-002
+    question: "How many bits are in an IPv6 address?"
+    answer: "128 bits"
+    category: internet-layer
+    tags:
+      - ipv6
+      - addressing
+    source: "RFC 4291 — IP Version 6 Addressing Architecture: https://www.rfc-editor.org/rfc/rfc4291.html"
+
+  - id: ip-003
+    question: "Which IPv4 private address block begins with 10?"
+    answer: "10.0.0.0/8"
+    category: internet-layer
+    tags:
+      - ipv4
+      - private-addressing
+    source: "RFC 1918 — Address Allocation for Private Internets: https://www.rfc-editor.org/rfc/rfc1918.html"
+
+  - id: ip-004
+    question: "Which IPv4 private address block covers 172.16.0.0 through 172.31.255.255?"
+    answer: "172.16.0.0/12"
+    category: internet-layer
+    tags:
+      - ipv4
+      - private-addressing
+    source: "RFC 1918 — Address Allocation for Private Internets: https://www.rfc-editor.org/rfc/rfc1918.html"
+
+  - id: ip-005
+    question: "Which IPv4 private address block begins with 192.168?"
+    answer: "192.168.0.0/16"
+    category: internet-layer
+    tags:
+      - ipv4
+      - private-addressing
+    source: "RFC 1918 — Address Allocation for Private Internets: https://www.rfc-editor.org/rfc/rfc1918.html"
+
+  - id: ip-006
+    question: "Which IPv4 prefix is reserved for link-local addressing?"
+    answer: "169.254.0.0/16"
+    category: internet-layer
+    tags:
+      - ipv4
+      - link-local
+    source: "RFC 3927 — Dynamic Configuration of IPv4 Link-Local Addresses: https://www.rfc-editor.org/rfc/rfc3927.html"
+
+  - id: ip-007
+    question: "What is the IPv6 loopback address?"
+    answer: "::1"
+    category: internet-layer
+    tags:
+      - ipv6
+      - loopback
+    source: "RFC 4291 — IP Version 6 Addressing Architecture: https://www.rfc-editor.org/rfc/rfc4291.html"
+
+  - id: ip-008
+    question: "What is the IPv6 unspecified address?"
+    answer: "::"
+    category: internet-layer
+    tags:
+      - ipv6
+      - addressing
+    source: "RFC 4291 — IP Version 6 Addressing Architecture: https://www.rfc-editor.org/rfc/rfc4291.html"
+
+  - id: ip-009
+    question: "Does the IPv6 base header contain a header checksum field?"
+    answer: "No"
+    category: internet-layer
+    tags:
+      - ipv6
+      - header
+    source: "RFC 8200 — Internet Protocol, Version 6 (IPv6) Specification: https://www.rfc-editor.org/rfc/rfc8200.html"
+
+  - id: ip-010
+    question: "What is the IPv6 minimum link MTU?"
+    answer: "1280 octets"
+    category: internet-layer
+    tags:
+      - ipv6
+      - mtu
+    source: "RFC 8200 — Internet Protocol, Version 6 (IPv6) Specification: https://www.rfc-editor.org/rfc/rfc8200.html"
